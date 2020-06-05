@@ -1,0 +1,8 @@
+[Unit]
+Description=ocserv-radcli docker service
+
+[Service]
+ExecStart=/usr/bin/docker start ocserv-radcli
+
+[Install]
+WantedBy=multi-user.target
